@@ -1,0 +1,22 @@
+==================
+Example 1
+==================
+
+{
+  person1: {
+    name: "Alice",
+    welcome: "Hello " + self.name,
+  },
+  person2: self.person1 { name: "Bob" },
+}
+
+---
+
+(source_file
+  (function_definition
+    (identifier)
+    (parameter_list)
+    (primitive_type)
+    (block
+      (return_statement (number)))))
+
